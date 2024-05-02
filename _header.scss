@@ -1,0 +1,47 @@
+.Header {
+  background-color: $header-bg;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  .Header-logo {
+    margin-right: 16px;
+    i {
+      font-size: 32px;
+      color: #fff;
+    }
+  }
+  .Header-search {
+    position: relative;
+    input {
+      background: hsla(0, 0%, 100%, 0.125);
+      width: 300px;
+      height: 30px;
+      padding: 7px;
+      font-size: 12px;
+      color: #fff;
+      border: none;
+      margin-right: 16px;
+      border-radius: 3px;
+    }
+    i {
+      position: absolute;
+      right: 25px;
+      top: 8px;
+    }
+  }
+  .Header-links {
+    a {
+      color: #fff;
+      margin-right: 16px;
+      font-family: $my-font;
+      font-size: 14px;
+    }
+  }
+  .Header-rightLinks {
+    margin-left: auto;
+    i {
+      color: #ccc;
+      margin-left: 10px;
+    }
+  }
+}
